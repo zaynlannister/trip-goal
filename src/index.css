@@ -12,6 +12,10 @@ body {
   color: #002248;
 }
 
+body.menu-open {
+  overflow: hidden;
+}
+
 .container {
   width: min(1120px, 100%);
   margin: 0 auto;

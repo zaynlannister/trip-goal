@@ -1,7 +1,7 @@
 import styled from "styled-components";
 interface MobileMenuInterface {
   open: boolean;
-  toggleMenu?: () => void;
+  toggleMenu: () => void;
 }
 
 const MobileMenu = (props: MobileMenuInterface) => {
@@ -11,7 +11,7 @@ const MobileMenu = (props: MobileMenuInterface) => {
         !props.open ? "" : "hidden-menu"
       }`}
     >
-      <div className="flex flex-col gap-6">
+      <div onClick={props.toggleMenu} className="flex flex-col gap-6">
         <a className="custom-link" href="#home">
           Home
         </a>

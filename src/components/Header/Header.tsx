@@ -94,12 +94,7 @@ const StyledHeader = styled.div`
   }
 
   @media (max-width: 705px) {
-    .header-content {
-      //   display: block;
-      //   flex-direction: column-reverse;
-    }
     .header-bg {
-      //   width: 100%;
       display: none;
     }
     .header-content {
