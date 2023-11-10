@@ -19,9 +19,7 @@ const App = () => {
       <div className="py-14">
         <FeedSection />
       </div>
-      <div className="bg-[#F8F8F8] py-10">
-        <FooterSection />
-      </div>
+      <div className="bg-[#F8F8F8] py-10">{/* <FooterSection /> */}</div>
     </div>
   );
 };
