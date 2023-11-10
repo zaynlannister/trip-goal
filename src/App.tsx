@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header";
 import StepsSection from "./components/StepsSection/StepsSection";
+import TourSection from "./components/TourSection/TourSection";
 
 const App = () => {
   return (
@@ -9,6 +10,9 @@ const App = () => {
       </div>
       <div className="bg-[#ffff] py-10">
         <StepsSection />
+      </div>
+      <div>
+        <TourSection />
       </div>
     </div>
   );
