@@ -9,10 +9,25 @@ body {
   padding: 0;
   box-sizing: border-box;
   box-sizing: border-box;
+  color: #002248;
+  /* background-color: #ffff; */
 }
 
 .container {
   width: min(1120px, 100%);
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.custom-link {
+  transition: 120ms all;
+  font-size: 14px;
+}
+
+.custom-link:hover {
+  color: #3685fb;
+}
+
+.custom-link:active {
+  color: #296cd0;
 }
