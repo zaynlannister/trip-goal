@@ -6,10 +6,10 @@ import TwitterIcon from "../Icons/Twitter";
 const FooterSection = () => {
   return (
     <div className="container flex justify-between items-center">
-      <div>
+      <div data-aos="fade-right">
         <img src={logo} alt="" />
       </div>
-      <div className="flex gap-2">
+      <div data-aos="fade-left" className="flex gap-2">
         <FacebookIcon />
         <LinkedInIcon />
         <TwitterIcon />

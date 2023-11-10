@@ -4,7 +4,7 @@ import styled from "styled-components";
 const StepsSection = () => {
   return (
     <StyledStepsContainer className="container">
-      <div className="text-center">
+      <div data-aos="fade-down" className="text-center">
         <p className="text-[#00B3A0] font-bold text-[13px]">
           3 steps for the perfect trip
         </p>

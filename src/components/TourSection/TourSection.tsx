@@ -6,14 +6,21 @@ const TourSection = () => {
     <StyledTourSection className="py-40">
       <div className="container tour-container">
         <div className="tour-content w-[50%] ml-auto">
-          <p className="text-[#00B3A0] text-[13px] font-bold">Take a tour</p>
-          <p className="text-[30px] font-bold">Discover Our Travel Guideline</p>
-          <p className="text-[#697687] py-4">
+          <p
+            data-aos="fade-left"
+            className="text-[#00B3A0] text-[13px] font-bold"
+          >
+            Take a tour
+          </p>
+          <p data-aos="fade-right" className="text-[30px] font-bold">
+            Discover Our Travel Guideline
+          </p>
+          <p data-aos="fade-left" className="text-[#697687] py-4">
             For curious travelers who want to connect locally and go deeper into
             a place. Our Experiential Travel Guides highlight offbeat and local
             experiences that help you.
           </p>
-          <PrimaryButton>Sart Now</PrimaryButton>
+          <PrimaryButton data-aos="fade-down">Sart Now</PrimaryButton>
         </div>
       </div>
     </StyledTourSection>

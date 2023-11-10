@@ -6,7 +6,10 @@ const StepComponent = (props: {
   img: string;
 }) => {
   return (
-    <StyledStep className="flex flex-col items-center text-center p-4 border-[1px] border-[#F8F8F8] w-[320px]">
+    <StyledStep
+      data-aos="fade-down"
+      className="flex flex-col items-center text-center p-4 border-[1px] border-[#F8F8F8] w-[320px]"
+    >
       <div>
         <img src={`assets/img/${props.img}.png`} alt="img" />
       </div>

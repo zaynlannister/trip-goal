@@ -21,10 +21,10 @@ const Header = () => {
   return (
     <StyledHeader className="container">
       <div className="flex justify-between items-center">
-        <div>
+        <div data-aos="fade-right">
           <img src={logo} alt="logo" />
         </div>
-        <div className="flex gap-8 header__nav">
+        <div data-aos="fade-down" className="flex gap-8 header__nav">
           <a className="custom-link" href="#home">
             Home
           </a>
@@ -41,7 +41,7 @@ const Header = () => {
             FAQ
           </a>
         </div>
-        <div className="flex items-center gap-4">
+        <div data-aos="fade-left" className="flex items-center gap-4">
           <PrimaryButton>Register</PrimaryButton>
           <div className="header__burger-menu hidden">
             <BurgerMenu open={open} toggleMenu={toggleMenu} />
@@ -50,14 +50,17 @@ const Header = () => {
         </div>
       </div>
       <div className="flex gap-12 items-center mt-12 header-content">
-        <div className="w-[50%] header-bg">
+        <div data-aos="fade-right" className="w-[50%] header-bg">
           <img
             className="header-img"
             src="/assets/img/header-bg.png"
             alt="img"
           />
         </div>
-        <div className="w-[50%] header-content header-content__img">
+        <div
+          data-aos="fade-left"
+          className="w-[50%] header-content header-content__img"
+        >
           <p className="text-[#00B3A0] text-[13px] font-bold">Book now</p>
           <p className="font-bold text-[40px] header__title">
             Let’s Enjoy Your Trip with TripGoal{" "}
