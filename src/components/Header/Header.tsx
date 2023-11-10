@@ -20,6 +20,7 @@ const Header = () => {
   };
   return (
     <StyledHeader className="container">
+      <MobileMenu open={open} toggleMenu={toggleMenu} />
       <div className="flex justify-between items-center">
         <div data-aos="fade-right">
           <img src={logo} alt="logo" />
@@ -45,7 +46,6 @@ const Header = () => {
           <PrimaryButton>Register</PrimaryButton>
           <div className="header__burger-menu hidden">
             <BurgerMenu open={open} toggleMenu={toggleMenu} />
-            <MobileMenu open={open} toggleMenu={toggleMenu} />
           </div>
         </div>
       </div>

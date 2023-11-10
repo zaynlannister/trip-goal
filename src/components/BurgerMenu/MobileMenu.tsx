@@ -33,7 +33,7 @@ const MobileMenu = (props: MobileMenuInterface) => {
 };
 
 const StyledMenu = styled.div`
-  left: -100%;
+  left: -600%;
   transition: 100ms all;
   a {
     font-size: 18px;
