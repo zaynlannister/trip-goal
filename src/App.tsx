@@ -1,3 +1,4 @@
+import FeedSection from "./components/Feed/FeedSection";
 import Header from "./components/Header/Header";
 import StepsSection from "./components/StepsSection/StepsSection";
 import TourSection from "./components/TourSection/TourSection";
@@ -13,6 +14,9 @@ const App = () => {
       </div>
       <div>
         <TourSection />
+      </div>
+      <div className="py-14 bg-[#F8F8F8]">
+        <FeedSection />
       </div>
     </div>
   );
