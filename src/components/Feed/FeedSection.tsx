@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const FeedSection = () => {
   return (
-    <FeedStyled className="container">
+    <FeedStyled id="faq" className="container">
       <div className="flex justify-between items-center mr-4 feed__content">
         <div data-aos="fade-right">
           <p className="text-[#00B3A0] text-[13px] font-bold">Social Feed</p>

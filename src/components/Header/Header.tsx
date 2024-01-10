@@ -5,9 +5,11 @@ import logo from "/assets/img/logo.svg";
 import rocket from "/assets/img/rocket.svg";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import MobileMenu from "../BurgerMenu/MobileMenu";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [open, setOpen] = React.useState<boolean>(false);
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setOpen(!open);
@@ -23,10 +25,15 @@ const Header = () => {
       <MobileMenu open={open} toggleMenu={toggleMenu} />
       <div className="flex justify-between items-center">
         <div data-aos="fade-right">
-          <img src={logo} alt="logo" />
+          <img
+            onClick={() => navigate("/")}
+            src={logo}
+            alt="logo"
+            className="header__image"
+          />
         </div>
         <div data-aos="fade-down" className="flex gap-8 header__nav">
-          <a className="custom-link" href="#home">
+          <a className="custom-link" href="/">
             Home
           </a>
           <a className="custom-link" href="#about">
@@ -43,7 +50,7 @@ const Header = () => {
           </a>
         </div>
         <div data-aos="fade-left" className="flex items-center gap-4">
-          <PrimaryButton>Register</PrimaryButton>
+          <PrimaryButton onClick={() => navigate("/info")}>Book</PrimaryButton>
           <div className="header__burger-menu hidden">
             <BurgerMenu open={open} toggleMenu={toggleMenu} />
           </div>
@@ -73,7 +80,9 @@ const Header = () => {
             go out of the country with your loved ones to have some fun and
             quality time in a cost-effective way?
           </p>
-          <PrimaryButton>Start now</PrimaryButton>
+          <PrimaryButton onClick={() => navigate("/info")}>
+            Start now
+          </PrimaryButton>
         </div>
       </div>
     </StyledHeader>
@@ -81,6 +90,12 @@ const Header = () => {
 };
 
 const StyledHeader = styled.div`
+  .header {
+    &__image {
+      cursor: pointer;
+    }
+  }
+
   @media (max-width: 1025px) {
     .header__title {
       font-size: 30px;

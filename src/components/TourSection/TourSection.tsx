@@ -1,9 +1,12 @@
+import { useNavigate } from "react-router-dom";
 import PrimaryButton from "../Buttons/PrimaryButton";
 import styled from "styled-components";
 
 const TourSection = () => {
+  const navigate = useNavigate();
+
   return (
-    <StyledTourSection className="py-40">
+    <StyledTourSection id="packages" className="py-40">
       <div className="container tour-container">
         <div className="tour-content w-[50%] ml-auto">
           <p
@@ -20,7 +23,9 @@ const TourSection = () => {
             a place. Our Experiential Travel Guides highlight offbeat and local
             experiences that help you.
           </p>
-          <PrimaryButton data-aos="fade-down">Sart Now</PrimaryButton>
+          <PrimaryButton onClick={() => navigate("/info")} data-aos="fade-down">
+            Start Now
+          </PrimaryButton>
         </div>
       </div>
     </StyledTourSection>

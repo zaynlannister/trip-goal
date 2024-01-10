@@ -5,7 +5,7 @@ import TwitterIcon from "../Icons/Twitter";
 
 const FooterSection = () => {
   return (
-    <div className="container flex justify-between items-center">
+    <div id="contacts" className="container flex justify-between items-center">
       <div>
         <img src={logo} alt="" />
       </div>

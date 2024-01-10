@@ -12,19 +12,19 @@ const MobileMenu = (props: MobileMenuInterface) => {
       }`}
     >
       <div onClick={props.toggleMenu} className="flex flex-col gap-6">
-        <a className="custom-link" href="#home">
+        <a className="custom-link" href="/">
           Home
         </a>
-        <a className="custom-link" href="#about">
+        <a className="custom-link" href="/">
           About
         </a>
-        <a className="custom-link" href="#packages">
+        <a className="custom-link" href="/">
           Packages
         </a>
-        <a className="custom-link" href="#contact">
+        <a className="custom-link" href="/">
           Contact Us
         </a>
-        <a className="custom-link" href="#faq">
+        <a className="custom-link" href="/">
           FAQ
         </a>
       </div>

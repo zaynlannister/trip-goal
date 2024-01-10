@@ -4,6 +4,8 @@ import App from "./App.tsx";
 import "./index.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import InfoPage from "./pages/InfoPage.tsx";
 
 AOS.init({
   offset: 100,
@@ -14,8 +16,19 @@ AOS.init({
   once: true,
 });
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/info",
+    element: <InfoPage />,
+  },
+]);
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

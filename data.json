@@ -1,0 +1,65 @@
+[
+  {
+    "cityName": "Berlin",
+    "image": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVybGlufGVufDB8fDB8fHww",
+    "price": 700,
+    "duration": 6,
+    "date": "18 Jun 2024"
+  },
+  {
+    "cityName": "Rome",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRLx_6BpE6GowOO_p5sziDDervkHLSozkHpnsG13IvLQ&s",
+    "price": 1100,
+    "duration": 7,
+    "date": "18 Jun 2024"
+  },
+  {
+    "cityName": "Milan",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg/1200px-Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg",
+    "price": 612,
+    "duration": 4,
+    "date": "20 Feb 2024"
+  },
+  {
+    "cityName": "Turin",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Turin_monte_cappuccini.jpg/1200px-Turin_monte_cappuccini.jpg",
+    "price": 999,
+    "duration": 7,
+    "date": "22 Feb 2024"
+  },
+  {
+    "cityName": "Geneva",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Geneve_2005_001_Ork.ch.jpg/398px-Geneve_2005_001_Ork.ch.jpg",
+    "price": 1244,
+    "duration": 12,
+    "date": "24 March 2024"
+  },
+  {
+    "cityName": "Lugano",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Lago_di_Lugano_at_Sunset_%28cropped_2%29.jpg/398px-Lago_di_Lugano_at_Sunset_%28cropped_2%29.jpg",
+    "price": 800,
+    "duration": 4,
+    "date": "29 March 2024"
+  },
+  {
+    "cityName": "Athens",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/The_Acropolis_from_Mount_Lycabettus_on_October_5%2C_2019_%28cropped%29.jpg/417px-The_Acropolis_from_Mount_Lycabettus_on_October_5%2C_2019_%28cropped%29.jpg",
+    "price": 1400,
+    "duration": 12,
+    "date": "2 April 2024"
+  },
+  {
+    "cityName": "Ioannina",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/%CE%9C%CE%B5_%CE%B8%CE%AD%CE%B1_%CF%84%CE%B1_%CE%93%CE%B9%CE%AC%CE%BD%CE%BD%CE%B5%CE%BD%CE%B1_%CE%B1%CF%80%CF%8C_%CF%80%CE%B1%CF%81%CE%B1%CF%80%CE%AD%CE%BD%CF%84%CE%B5_-_panoramio.jpg/360px-%CE%9C%CE%B5_%CE%B8%CE%AD%CE%B1_%CF%84%CE%B1_%CE%93%CE%B9%CE%AC%CE%BD%CE%BD%CE%B5%CE%BD%CE%B1_%CE%B1%CF%80%CF%8C_%CF%80%CE%B1%CF%81%CE%B1%CF%80%CE%AD%CE%BD%CF%84%CE%B5_-_panoramio.jpg",
+    "price": 1333,
+    "duration": 8,
+    "date": "4 April 2024"
+  },
+  {
+    "cityName": "Hamburg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Hamburg%2C_Landungsbr%C3%BCcken_--_2016_--_3131-7.jpg/198px-Hamburg%2C_Landungsbr%C3%BCcken_--_2016_--_3131-7.jpg",
+    "price": 977,
+    "duration": 4,
+    "date": "14 April 2024"
+  }
+]
