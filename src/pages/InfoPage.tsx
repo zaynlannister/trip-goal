@@ -12,7 +12,7 @@ const TopHeader = () => {
   const [open, setOpen] = React.useState<boolean>(false);
   const [tours, setTours] = React.useState([]);
   const navigate = useNavigate();
-  const URL = "./data.json";
+  const URL = "/data.json";
 
   const toggleMenu = () => {
     setOpen(!open);
