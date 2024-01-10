@@ -6,6 +6,7 @@ import BurgerMenu from "../components/BurgerMenu/BurgerMenu";
 import { useNavigate } from "react-router-dom";
 import InfoCard from "../components/InfoCard/InfoCard";
 import Loader from "../components/Loader/Loader";
+import ICard from "../interfaces";
 
 const TopHeader = () => {
   const [open, setOpen] = React.useState<boolean>(false);
@@ -61,7 +62,7 @@ const TopHeader = () => {
         <div className="info">
           <div className="info__container">
             {tours.map((item, index) => (
-              <InfoCard key={index} {...item} />
+              <InfoCard key={index} {...(item as ICard)} />
             ))}
           </div>
         </div>
